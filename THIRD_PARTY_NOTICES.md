@@ -2,6 +2,14 @@
 
 Wallpaper Studio source: GPL-3.0-or-later.
 
+## Research reference: WallpaperEngine-Extractor
+
+DuJunxi1993 / WallpaperEngine-Extractor: https://github.com/DuJunxi1993/WallpaperEngine-Extractor . Consulted during early research into PKG extraction, TEX conversion and desktop-tool workflows. Listed as a research reference, not as a direct contributor to this repository. This acknowledgment does not replace any applicable license notices for code actually reused.
+
+## AI-assisted development
+
+ChatGPT / OpenAI Codex assisted with research, implementation, debugging, testing, documentation and release operations. The project is initiated and maintained by wolassaaa. This is an acknowledgment of AI assistance, not an assertion of official OpenAI sponsorship, endorsement or ownership. Existing third-party attribution and license notices remain unchanged.
+
 ## wallpaper-engine-exporter
 Reference/control syntax and Steam discovery adapted from https://github.com/suye-sama/wallpaper-engine-exporter v0.4.1 (5d1f915).
 

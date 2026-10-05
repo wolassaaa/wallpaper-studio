@@ -83,7 +83,27 @@ Python 3.12：
 
 GitHub Actions 执行测试和 Windows 打包；版本标签生成 **draft / prerelease**，检查通过后再公开发布。发布资产附 SHA-256。
 
-## 反馈与贡献
+## 参考项目与致谢
+
+这个小工具不是凭空做出来的。感谢前辈们公开代码、工具和研究成果，让壁纸资源读取、场景导出与格式实验有了可以学习的基础。
+
+| 作者 / 项目 | 本项目中的参考或用途 |
+| --- | --- |
+| [suye-sama / wallpaper-engine-exporter](https://github.com/suye-sama/wallpaper-engine-exporter) | Steam 素材发现、Wallpaper Engine 控制及场景导出流程；部分发现与控制逻辑按其 v0.4.1 实现改编，来源和 MIT 声明保留在第三方说明中 |
+| [DuJunxi1993 / WallpaperEngine-Extractor](https://github.com/DuJunxi1993/WallpaperEngine-Extractor) | 前期研究 PKG 提取、TEX 转图片及桌面工具使用流程时的参考项目；在此作为研究参考致谢，不列为本项目直接代码提交者 |
+| [notscuffed / RePKG](https://github.com/notscuffed/repkg) | 实际使用的 PKG 解包与 TEX 转换工具，是内部素材提取的基础 |
+| [Hiwoniu / live-photos](https://github.com/Hiwoniu/live-photos) | 实验性 Live Photo / LIVP 封装研究参考；相关布局独立实现，设备识别仍待验证 |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg)、[Gyan Windows builds](https://www.gyan.dev/ffmpeg/builds/) | 视频解码、帧定位、编码和随包使用的 Windows 工具构建 |
+| [Qt / PySide6](https://code.qt.io/pyside/pyside-setup.git/) 及其他开源依赖 | 中文桌面界面、图像处理、窗口采集与程序打包的基础组件；完整清单见第三方说明 |
+
+### 项目协作与支持
+
+- **[wolassaaa](https://github.com/wolassaaa)**：项目发起与维护，提出需求、确定产品方向，提供使用反馈和设备测试，并负责发布决定。
+- **ChatGPT / OpenAI Codex（AI 开发协助）**：协助方案研究、代码实现与修改、问题排查、测试、文档整理和发布操作。AI 协助不等于 OpenAI 官方赞助或认可；项目维护仍由维护者负责。
+
+参考、代码改编、实际依赖与 AI 协助是不同的关系，以上分别说明。致谢不代表这些项目的作者参与了本项目开发，也不代表他们为本项目的效果背书。各自的版权、来源与许可证声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 反馈与参与
 
 这是我的第一个公开项目，欢迎一起把它做成好用的小工具。**不会写代码也可以贡献**：报告问题、补充说明、提供自制测试素材，或验证不同 Windows 环境。
 
