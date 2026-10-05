@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wallpaper-studio"
+version = "0.4.7"
+description = "Wallpaper capture, frame editing and Live Photo export on Windows"
+requires-python = ">=3.12"
+dependencies = ["PySide6>=6.7", "Pillow>=12", "pillow-heif==1.8.0", "imageio-ffmpeg>=0.6", "windows-capture>=1.5; sys_platform == 'win32'"]
+
+[project.scripts]
+wallpaper-studio = "wallpaper_studio.app:main"
+
+[tool.setuptools.packages.find]
+include = ["wallpaper_studio*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
